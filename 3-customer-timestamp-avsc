@@ -7,7 +7,7 @@
             {"name": "address", "type": "string"},
             {"name": "city", "type": "string"},
             {"name": "postcode", "type": ["string", "int"]},   
-            {"name": "type", "type": "enum", "symbols": ["POX BOX", "RESIDENTIAL", "ENTERPRISE"]},
+            {"name": "type", "type": "enum", "symbols": ["POX BOX", "RESIDENTIAL", "ENTERPRISE"]}
         ]
     },
     {
