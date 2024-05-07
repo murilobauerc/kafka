@@ -1,0 +1,15 @@
+{
+  "type": "record",
+  "namespace": "com.example",
+  "name": "Customer2",
+  "version": "2",
+  "fields": [
+    {"name":  "first_name", "type":  "string", "doc":  "First name of the customer"},
+    {"name":  "last_name", "type":  "string", "doc":  "Last name of the customer"},
+    {"name":  "age", "type":  "int", "doc":  "Age at the time of the registration"},
+    {"name":  "height", "type":  "float", "doc":  "Height at the time of the registration"},
+    {"name":  "weight", "type":  "float", "doc":  "Weight at the time of the registration"},
+    {"name":  "phone_number", "type":  ["null", "string"], "default": null,  "doc":  "optional phone number"},
+    {"name":  "email", "type":  "string", "default": "missing@example.com", ",doc": "email address"}
+  ]
+}
